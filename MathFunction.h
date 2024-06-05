@@ -5,6 +5,7 @@
 #include "AABB.h"
 #include "Matrix4x4.h"
 #include "Vector3.h"
+#include "Vector4.h"
 #include "Segment.h"
 #include "Sphereh.h"
 #include "Plane.h"
@@ -69,6 +70,14 @@ public:
 	/// <param name="matrix"></param>
 	/// <returns></returns>
 	Vector3 Transform(const Vector3& vector, const Matrix4x4& matrix);
+	/// <summary>
+	/// 3D座標を2Dスクリーン座標に変換する関数
+	/// </summary>
+	/// <param name="point"></param>
+	/// <param name="viewProjectionMatrix"></param>
+	/// <param name="viewportMatrix"></param>
+	/// <returns></returns>
+	Vector3 ProjectToScreen(const Vector3& point, const Matrix4x4& viewProjectionMatrix, const Matrix4x4& viewportMatrix);
 	/// <summary>
 	/// クロス積
 	/// </summary>
