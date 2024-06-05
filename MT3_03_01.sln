@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MT3_03_01", "MT3_03_01.vcxproj", "{37BC65DB-E2B7-471F-A2BC-C733F54E688E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37BC65DB-E2B7-471F-A2BC-C733F54E688E}.Debug|x64.ActiveCfg = Debug|x64
+		{37BC65DB-E2B7-471F-A2BC-C733F54E688E}.Debug|x64.Build.0 = Debug|x64
+		{37BC65DB-E2B7-471F-A2BC-C733F54E688E}.Release|x64.ActiveCfg = Release|x64
+		{37BC65DB-E2B7-471F-A2BC-C733F54E688E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC8C476-D7C4-40BC-8DF7-5FB82D50546C}
+	EndGlobalSection
+EndGlobal
